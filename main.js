@@ -56,3 +56,21 @@ for (var i = 0; i < n; i++) {
   }
   console.log(z);
 }
+const print = (num) => {
+  for (let index = 0; index < num; index++) {
+    var line = "0 1 0 1";
+    var string = `${
+      index % 2 === 0 ? line : line.split(" ").reverse().join(" ")
+    } \n`;
+    console.log(string);
+  }
+};
+print(4);
+
+const print = (num) => {
+  for (let index = 0; index < num; index++) {
+    var line = `${index % 2} ${~index % 2}`;
+    console.log(string);
+  }
+};
+print(4);
