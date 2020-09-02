@@ -66,11 +66,3 @@ const print = (num) => {
   }
 };
 print(4);
-
-const print = (num) => {
-  for (let index = 0; index < num; index++) {
-    var line = `${index % 2} ${~index % 2}`;
-    console.log(string);
-  }
-};
-print(4);
