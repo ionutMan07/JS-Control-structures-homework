@@ -1,6 +1,7 @@
 # JS-Control-structures-homework
 
 Javascript Control Structures
+
 Using control structures, do the following:
 
 display in the console the numbers from 1 to 20
