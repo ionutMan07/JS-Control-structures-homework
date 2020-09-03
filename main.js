@@ -57,6 +57,8 @@ for (var i = 0; i < n; i++) {
   console.log(z);
 }
 
+// Elena Boariu solution to challenge
+
 var n = 4;
 var matrice = new Array(n);
 for (var i = 0; i <= matrice.length - 1; i++) {
@@ -79,6 +81,8 @@ var displayinLine = function (array) {
 };
 displayinLine(matrice);
 console.log(matrice.length);
+
+//Codrin Solution to challenge
 
 const print = (num) => {
   for (let index = 0; index < num; index++) {
