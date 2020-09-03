@@ -56,7 +56,6 @@ for (var i = 0; i < n; i++) {
   }
   console.log(z);
 }
-<<<<<<< Codesandbox
 
 var n = 4;
 var matrice = new Array(n);
@@ -68,19 +67,17 @@ for (i = 0; i <= matrice.length - 1; i++) {
     if ((i % 2 === 0 && j % 2 === 1) || (i % 2 === 1 && j % 2 === 0)) {
       matrice[i][j] = 1;
     } else if ((i % 2 === 0 && j % 2 === 0) || (i % 2 === 1 && j % 2 === 1)) {
-=======
-const print = (num) => {
-  for (let index = 0; index < num; index++) {
-    var line = "0 1 0 1";
-    var string = `${
-      index % 2 === 0 ? line : line.split(" ").reverse().join(" ")
-    } \n`;
-    console.log(string);
-  }
-};
-print(4);
+      const print = (num) => {
+        for (let index = 0; index < num; index++) {
+          var line = "0 1 0 1";
+          var string = `${
+            index % 2 === 0 ? line : line.split(" ").reverse().join(" ")
+          } \n`;
+          console.log(string);
+        }
+      };
+      print(4);
 
->>>>>>> GitHub
       matrice[i][j] = 0;
     }
   }
