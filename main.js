@@ -56,6 +56,19 @@ for (var i = 0; i < n; i++) {
   }
   console.log(z);
 }
+<<<<<<< Codesandbox
+
+var n = 4;
+var matrice = new Array(n);
+for (var i = 0; i <= matrice.length - 1; i++) {
+  matrice[i] = new Array(n);
+}
+for (i = 0; i <= matrice.length - 1; i++) {
+  for (var j = 0; j <= matrice.length - 1; j++) {
+    if ((i % 2 === 0 && j % 2 === 1) || (i % 2 === 1 && j % 2 === 0)) {
+      matrice[i][j] = 1;
+    } else if ((i % 2 === 0 && j % 2 === 0) || (i % 2 === 1 && j % 2 === 1)) {
+=======
 const print = (num) => {
   for (let index = 0; index < num; index++) {
     var line = "0 1 0 1";
@@ -66,3 +79,17 @@ const print = (num) => {
   }
 };
 print(4);
+
+>>>>>>> GitHub
+      matrice[i][j] = 0;
+    }
+  }
+}
+var displayinLine = function (array) {
+  var length = array.length;
+  for (var i = 0; i < length; i++) {
+    console.log(array[i]);
+  }
+};
+displayinLine(matrice);
+console.log(matrice.length);
