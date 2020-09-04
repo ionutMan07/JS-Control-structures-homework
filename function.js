@@ -18,4 +18,4 @@ saySomething();
 
 var result = sum(1, 2, 3);
 
-console.log(result);
+console.log(`The sum is: ${result}`);
