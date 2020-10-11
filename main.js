@@ -45,7 +45,7 @@ console.log(
   countInArray(mySecondArray, 3)
 );
 
-Using nested for generate the following pattern
+// Using nested for generate the following pattern
 
 var z;
 var n = 4;
@@ -57,7 +57,7 @@ for (var i = 0; i < n; i++) {
   console.log(z);
 }
 
-Elena Boariu solution to challenge
+// Elena Boariu solution to challenge
 
 var n = 4;
 var matrice = new Array(n);
